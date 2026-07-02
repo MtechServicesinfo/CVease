@@ -232,15 +232,25 @@
     flex-wrap: wrap; gap: 1rem;
     border-top: 2px solid var(--red);
   }
+  /* FOOTER */
+  footer {
+    background: var(--black); color: #888; padding: 3rem 5vw;
+    display: flex; justify-content: space-between; align-items: center;
+    flex-wrap: wrap; gap: 1rem;
+    border-top: 2px solid var(--red);
+  }
   .footer-logo {
     font-family: var(--type-display); font-weight: 900; font-size: 1.4rem;
     color: var(--white); letter-spacing: 0.04em;
   }
   .footer-logo span { color: var(--red); }
+  .footer-logo-img {
+    height: 32px;
+    width: auto;
+    display: block;
+  }
   footer p { font-size: 0.82rem; }
-  footer nav ul { display: flex; gap: 1.5rem; }
-  footer nav ul li a { color: #888; text-decoration: none; font-size: 0.82rem; transition: color 0.2s; }
-  footer nav ul li a:hover { color: var(--red); }
+
 
   /* MODAL */
   .modal-overlay {
